@@ -160,9 +160,9 @@
                                             type="submit">Log In</button>
                                     </div>
 
-                                    {{-- <div class="mt-4 text-center">
-                                        <a href="pages-recoverpw.html" class="text-muted"><i class="mdi mdi-lock mr-1"></i> Forgot your password?</a>
-                                    </div> --}}
+                                    <div class="mt-4 text-center">
+                                        <a href="{{ route('password.request') }}" class="text-muted"><i class="mdi mdi-lock mr-1"></i> Forgot your password?</a>
+                                    </div>
                                 </form>
                             </div>
 

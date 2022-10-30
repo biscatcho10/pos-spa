@@ -3,11 +3,11 @@ import VueRouter from "vue-router";
 
 // import components
 
-import home from "./components/tags/index";
+import home from "./components/home";
 
 
 const routes = [
-    { path: "/test", component: home, name: "home" },
+    { path: "/", component: home, name: "home" },
 ];
 
 Vue.use(VueRouter);
