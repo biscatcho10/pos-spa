@@ -20,7 +20,11 @@ Auth::routes();
 //     return redirect('/login');
 // })->name('welcome');
 
-Route::get('{any}', function () {
-    return view('home');
-})->where(['any' => '.*']);
+
+Route::middleware('auth')->group(function () {
+    Route::get('{any}', function () {
+        return view('home');
+    })->where(['any' => '.*']);
+});
+
 

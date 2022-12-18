@@ -152,7 +152,8 @@
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" name="remember" class="custom-control-input" id="customControlInline" {{ old('remember') ? 'checked' : '' }}>
                                         <label class="custom-control-label" for="customControlInline">
-                                            Remember me</label>
+                                            Remember me
+                                        </label>
                                     </div>
 
                                     <div class="mt-3">
